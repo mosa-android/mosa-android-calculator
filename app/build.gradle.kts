@@ -10,8 +10,8 @@ android {
         applicationId = "org.mosa.calculator"
         minSdk = 36
         targetSdk = 37
-        versionCode = 17
-        versionName = "37"
+        versionCode = 37
+        versionName = "17"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
