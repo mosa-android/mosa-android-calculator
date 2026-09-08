@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الحاسبة</string>
+    <string name="if_calc_nan">أنت لم تكتب شيئا في الحاسبة بعد</string>
+    <string name="options_app">المزيد من الخيارات</string>
+    <string name="theme">المظهر</string>
+    <string name="continue1">الاستمرار</string>
+    <string name="no_last_calculation">لم يتم حفظ أي عملية حسابية.</string>
+    <string name="delete">مسح</string>
+    <string name="history">السجل</string>
+    <string name="done">تم</string>
+    <string name="choose_theme">اختر المظهر التي تريده</string>
+    <string name="as_a_system">حسب النظام</string>
+    <string name="dark_theme">المظهر الداكن</string>
+    <string name="light_mode">المظهر الفاتح</string>
+    <string name="calculation_options">خيارات الحساب</string>
+    <string name="dismiss">إغلاق</string>
+    <string name="scientific">علمي</string>
+    <string name="unit_converter">محول الوحدات</string>
+    <string name="numeric">رقمي</string>
+    <string name="addition">الجمع</string>
+    <string name="subtraction">الطرح</string>
+    <string name="multiplication">الضرب</string>
+    <string name="division">القسمة</string>
+    <string name="equals">يساوي</string>
+    <string name="parentheses">الأقواس</string>
+    <string name="point">نقطة</string>
+    <string name="percentage">النسبة المئوية</string>
+    <string name="clear">مسح الكل</string>
+    <string name="clear_history">مسح السجل</string>
+    <string name="length">الطول</string>
+    <string name="weight">الوزن</string>
+    <string name="temperature">درجة الحرارة</string>
+    <string name="volume">الحجم</string>
+    <string name="time">الوقت</string>
+</resources>

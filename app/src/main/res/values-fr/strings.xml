@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculatrice</string>
+    <string name="if_calc_nan">Vous n\'avez encore rien écrit dans la calculatrice</string>
+    <string name="options_app">Plus d\'options</string>
+    <string name="theme">Thème</string>
+    <string name="continue1">Continuer</string>
+    <string name="no_last_calculation">Aucun calcul n\'a été enregistré.</string>
+    <string name="done">Terminé</string>
+    <string name="choose_theme">Choisissez le thème que vous souhaitez</string>
+    <string name="delete">Supprimer</string>
+    <string name="history">Historique</string>
+    <string name="as_a_system">Suivi du système</string>
+    <string name="dark_theme">Thème sombre</string>
+    <string name="light_mode">Thème clair</string>
+    <string name="calculation_options">Options de calcul</string>
+    <string name="dismiss">Rejeter</string>
+    <string name="scientific">Scientifique</string>
+    <string name="unit_converter">Convertisseur d\'unités</string>
+    <string name="numeric">Numérique</string>
+    <string name="addition">Addition</string>
+    <string name="subtraction">Soustraction</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="division">Division</string>
+    <string name="equals">Égale</string>
+    <string name="parentheses">Parenthèses</string>
+    <string name="point">Point</string>
+    <string name="percentage">Pourcentage</string>
+    <string name="clear">Effacer</string>
+    <string name="clear_history">Effacer l\'historique</string>
+    <string name="length">Longueur</string>
+    <string name="weight">Poids</string>
+    <string name="temperature">Température</string>
+    <string name="volume">Volume</string>
+    <string name="time">Temps</string>
+</resources>

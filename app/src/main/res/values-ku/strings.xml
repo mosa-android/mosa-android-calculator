@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mekîneya hesaban</string>
+    <string name="no_last_calculation">Tiştek hesab nehat tomarkirin.</string>
+    <string name="delete">Rake</string>
+    <string name="history">Borî</string>
+    <string name="done">Temam</string>
+    <string name="if_calc_nan">We hêj tiştek di mekîneya hesaban de nenivîsiye</string>
+    <string name="options_app">Vebijêrkên din</string>
+    <string name="theme">Rûkard</string>
+    <string name="scientific">Zanistî</string>
+    <string name="numeric">Hejmarî</string>
+    <string name="clear_history">Boriyê paqij bike</string>
+    <string name="continue1">Bidomîne</string>
+    <string name="choose_theme">Rûkardê ku hûn dixwazin hilbijêrin</string>
+    <string name="as_a_system">Pergalê bişopîne</string>
+    <string name="dark_theme">Rûkardê tarî</string>
+    <string name="light_mode">Rûkardê ronahî</string>
+
+
+</resources>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/keyboardHyp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/textViewTTL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hyp"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cancelDialog"
+                style="@style/Widget.Material3.Button.IconButton"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:backgroundTint="?attr/colorSurfaceContainerHigh"
+                android:contentDescription="@string/done"
+                android:gravity="center"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:textSize="0sp"
+                app:icon="@drawable/close_24dp_5f6368_fill0_wght200_grad0_opsz24"
+                app:iconGravity="textStart"
+                app:iconTint="?android:attr/colorForeground" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/sinPowerM1"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:stateListAnimator="@animator/raise_on_press"
+                    android:text="sin⁻¹"
+                    android:textColor="?android:attr/colorForeground"
+                    android:textSize="24sp"
+                    app:backgroundTint="?attr/colorSurfaceContainerHigh"
+                    app:cornerRadius="20dp"
+                    app:elevation="0dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/cosh"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:stateListAnimator="@animator/raise_on_press"
+                    android:text="cosh"
+                    android:textColor="?android:attr/colorForeground"
+                    android:textSize="20sp"
+                    app:backgroundTint="?attr/colorSurfaceContainerHigh"
+                    app:cornerRadius="20dp"
+                    app:elevation="0dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/csch"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:stateListAnimator="@animator/raise_on_press"
+                    android:text="csch"
+                    android:textColor="?android:attr/colorForeground"
+                    android:textSize="24sp"
+                    app:backgroundTint="?attr/colorSurfaceContainerHigh"
+                    app:cornerRadius="20dp"
+                    app:elevation="0dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/cosPowerM1"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:stateListAnimator="@animator/raise_on_press"
+                    android:text="cos⁻¹"
+                    android:textColor="?android:attr/colorForeground"
+                    android:textSize="24sp"
+                    app:backgroundTint="?attr/colorSurfaceContainerHigh"
+                    app:cornerRadius="20dp"
+                    app:elevation="0dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/tanh"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:stateListAnimator="@animator/raise_on_press"
+                    android:text="tanh"
+                    android:textColor="?android:attr/colorForeground"
+                    android:textSize="24sp"
+                    app:backgroundTint="?attr/colorSurfaceContainerHigh"
+                    app:cornerRadius="20dp"
+                    app:elevation="0dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/arcSinh"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:stateListAnimator="@animator/raise_on_press"
+                    android:text="sinh⁻¹"
+                    android:textColor="?android:attr/colorForeground"
+                    android:textSize="24sp"
+                    app:backgroundTint="?attr/colorSurfaceContainerHigh"
+                    app:cornerRadius="20dp"
+                    app:elevation="0dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/tanPowerM1"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:stateListAnimator="@animator/raise_on_press"
+                    android:text="tan⁻¹"
+                    android:textColor="?android:attr/colorForeground"
+                    android:textSize="24sp"
+                    app:backgroundTint="?attr/colorSurfaceContainerHigh"
+                    app:cornerRadius="20dp"
+                    app:elevation="0dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/coth"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:stateListAnimator="@animator/raise_on_press"
+                    android:text="coth"
+                    android:textColor="?android:attr/colorForeground"
+                    android:textSize="24sp"
+                    app:backgroundTint="?attr/colorSurfaceContainerHigh"
+                    app:cornerRadius="20dp"
+                    app:elevation="0dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/arcCosh"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:stateListAnimator="@animator/raise_on_press"
+                    android:text="cosh⁻¹"
+                    android:textColor="?android:attr/colorForeground"
+                    android:textSize="24sp"
+                    app:backgroundTint="?attr/colorSurfaceContainerHigh"
+                    app:cornerRadius="20dp"
+                    app:elevation="0dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/sinh"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:stateListAnimator="@animator/raise_on_press"
+                    android:text="sinh"
+                    android:textColor="?android:attr/colorForeground"
+                    android:textSize="24sp"
+                    app:backgroundTint="?attr/colorSurfaceContainerHigh"
+                    app:cornerRadius="20dp"
+                    app:elevation="0dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/sech"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:stateListAnimator="@animator/raise_on_press"
+                    android:text="sech"
+                    android:textColor="?android:attr/colorForeground"
+                    android:textSize="24sp"
+                    app:backgroundTint="?attr/colorSurfaceContainerHigh"
+                    app:cornerRadius="20dp"
+                    app:elevation="0dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/arcTanh"
+                    style="@style/Widget.Material3.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_weight="1"
+                    android:padding="0dp"
+                    android:stateListAnimator="@animator/raise_on_press"
+                    android:text="tanh⁻¹"
+                    android:textColor="?android:attr/colorForeground"
+                    android:textSize="24sp"
+                    app:backgroundTint="?attr/colorSurfaceContainerHigh"
+                    app:cornerRadius="20dp"
+                    app:elevation="0dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

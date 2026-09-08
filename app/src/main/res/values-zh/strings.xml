@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">计算器</string>
+    <string name="if_calc_nan">你还没有在计算器里写住任何文字。</string>
+    <string name="options_app">更多选项</string>
+    <string name="theme">主题</string>
+    <string name="continue1">继续</string>
+    <string name="no_last_calculation">没有保存计算。</string>
+    <string name="delete">删除</string>
+    <string name="history">历史</string>
+    <string name="done">完成</string>
+    <string name="choose_theme">选择想要的主题</string>
+    <string name="as_a_system">跟随系统</string>
+    <string name="dark_theme">暗色主题</string>
+    <string name="light_mode">浅色主题</string>
+    <string name="scientific">科学</string>
+    <string name="numeric">数字</string>
+    <string name="clear_history">清除历史</string>
+</resources>

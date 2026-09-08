@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">بژمێر</string>
+    <string name="if_calc_nan">هێشتا هیچت لە بژمێردا نەنووسیوە.</string>
+    <string name="options_app">بژاردەی زیاتر</string>
+    <string name="theme">مژار</string>
+    <string name="continue1">بەردەوام بوون</string>
+    <string name="no_last_calculation">هیچ حیسابێک پاشەکەوت نەکراوە.</string>
+    <string name="delete">سڕینەوە</string>
+    <string name="history">مێژوو</string>
+    <string name="done">تەواو</string>
+    <string name="choose_theme">مژارە دڵخواوەکەت هەڵبژێرە</string>
+    <string name="as_a_system">پەیڕەوی سیستم</string>
+    <string name="dark_theme">مژاری تاریک</string>
+    <string name="light_mode">مژاری ڕۆشن</string>
+    <string name="calculation_options">Calculation Options</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="scientific">زانستی</string>
+    <string name="unit_converter">Unit Converter</string>
+    <string name="numeric">ژمارەیی</string>
+    <string name="addition">Addition</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="division">Division</string>
+    <string name="equals">Equals</string>
+    <string name="parentheses">Parentheses</string>
+    <string name="point">Point</string>
+    <string name="percentage">Percentage</string>
+    <string name="clear">Clear</string>
+    <string name="clear_history">پاککردنەوەی مێژوو</string>
+    <string name="length">Length</string>
+    <string name="weight">Weight</string>
+    <string name="temperature">Temperature</string>
+    <string name="volume">Volume</string>
+    <string name="time">Time</string>
+    <string name="currency_converter">Currency Converter</string>
+</resources>

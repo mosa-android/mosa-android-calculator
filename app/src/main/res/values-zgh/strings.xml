@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ⵜⴰⵙⵙⵉⴹⵏⵜ</string>
+    <string name="if_calc_nan">ⵓⵔ ⵜⵜⵉⵔⵉⴷ ⵡⴰⵍⴰ ⵢⵉⵡⵏ ⵡⴰⵡⴰⵍ ⴳ ⵜⴰⵙⵙⵉⴹⵏⵜ</string>
+    <string name="options_app">ⵓⴳⴰⵔ ⵏ ⵜⵉⴼⵔⵏⵉⵡⵉⵏ</string>
+    <string name="theme">ⵜⴰⵎⵔⵏⵓⵜ</string>
+    <string name="no_last_calculation">ⵓⵔ ⵉⵜⵜⵓⵣⵎⵎⴻⵎ ⵡⴰⵙⵉⴹⵏ</string>
+    <string name="delete">ⴽⴽⵙ</string>
+    <string name="history">ⴰⵎⵣⵔⴰⵢ</string>
+    <string name="done">ⵙⵎⴷ</string>
+    <string name="choose_theme">ⵙⵜⵉ ⵜⴰⵎⵔⵏⵓⵜ ⵜⴰⵔⴰⴷⵜ</string>
+    <string name="as_a_system">ⵜⵉⴹⴼⵕⵉ ⵏ ⵓⵏⴳⵔⴰⵡ</string>
+    <string name="dark_theme">ⵜⴰⵎⵔⵏⵓⵜ ⵜⴰⵎⴰⵍⵍⴰⵙⵜ</string>
+    <string name="light_mode">ⵜⴰⵎⵔⵏⵓⵜ ⵜⴰⵎⴰⴼⴰⵡⵜ</string>
+    <string name="continue1">ⵖⵔⵔⴷ</string>
+    <string name="clear_history">ⵎⵃⵓ ⴰⵎⵣⵔⴰⵢ</string>
+    <string name="scientific">ⴰⵎⴰⵙⵙⴰⵏ</string>
+    <string name="numeric">ⴰⵎⵓⵟⵟⵓⵏ</string>
+
+
+</resources>
