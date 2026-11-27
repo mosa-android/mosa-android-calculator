@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="if_calc_nan">You haven\'t written anything in the calculator yet</string>
+    <string name="options_app">More options</string>
+    <string name="theme">Theme</string>
+    <string name="continue1">Continue</string>
+    <string name="no_last_calculation">No calculations were saved.</string>
+    <string name="delete">Delete</string>
+    <string name="history">History</string>
+    <string name="done">Done</string>
+    <string name="choose_theme">Choose the theme you want</string>
+    <string name="as_a_system">Follow system</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="light_mode">Light Theme</string>
+    <string name="calculation_options">Calculation Options</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="scientific">Scientific</string>
+    <string name="unit_converter">Unit Converter</string>
+    <string name="numeric">Numeric</string>
+    <string name="addition">Addition</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="division">Division</string>
+    <string name="equals">Equals</string>
+    <string name="parentheses">Parentheses</string>
+    <string name="point">Point</string>
+    <string name="percentage">Percentage</string>
+    <string name="clear">Clear</string>
+    <string name="clear_history">Clear History</string>
+    <string name="length">Length</string>
+    <string name="weight">Weight</string>
+    <string name="temperature">Temperature</string>
+    <string name="volume">Volume</string>
+    <string name="time">Time</string>
+    <string name="no_text" translatable="false"/>
+    <string name="currency_converter">Currency Converter</string>
+</resources>

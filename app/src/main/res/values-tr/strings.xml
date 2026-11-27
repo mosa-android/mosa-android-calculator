@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hesap makinesi</string>
+    <string name="if_calc_nan">Hesap makinesine henüz bir şey yazmadınız.</string>
+    <string name="options_app">Diğer seçenekler</string>
+    <string name="theme">Tema</string>
+    <string name="continue1">Devam et</string>
+    <string name="no_last_calculation">Hiçbir hesaplama kaydedilmedi.</string>
+    <string name="delete">Sil</string>
+    <string name="history">Geçmiş</string>
+    <string name="done">Tamam</string>
+    <string name="choose_theme">İstediğiniz temayı seçin</string>
+    <string name="as_a_system">Sistemi takip et</string>
+    <string name="dark_theme">Karanlık tema</string>
+    <string name="light_mode">Aydınlık tema</string>
+    <string name="scientific">Bilimsel</string>
+    <string name="numeric">Sayısal</string>
+    <string name="clear_history">Geçmişi Temizle</string>
+</resources>

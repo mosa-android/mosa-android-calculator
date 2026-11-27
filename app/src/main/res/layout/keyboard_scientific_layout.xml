@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/keyboardScientific"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layoutDirection="ltr"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCubeRoot"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="∛"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnxPower3"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="x³"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn2Powerx"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="2ˣ"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnfract"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="/"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnHyp"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="hyp"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFactorial"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="x!"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSin"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="sin"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNatLog"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="ln"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnepx"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="eˣ"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAbsoluteVal"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="|x|"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPowerM1"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="x⁻¹"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCos"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="cos"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLog"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="log"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPower2"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="x²"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPi"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="π"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSquareRoot"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="√"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTan"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="tan"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn1div"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="1/x"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPower"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="xʸ"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btne"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+            android:stateListAnimator="@animator/raise_on_press"
+            android:text="e"
+            android:textColor="?android:attr/colorForeground"
+            android:textSize="24sp"
+            app:backgroundTint="?attr/colorSurfaceContainerHigh"
+            app:cornerRadius="10dp"
+            app:elevation="0dp" />
+    </LinearLayout>
+</LinearLayout>
